@@ -1,0 +1,30 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="sols_start._Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>제목 없음</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <h1>lailai<asp:CheckBox ID="CheckBox1" runat="server" />
+            </h1>
+    zhubozhubo 사랑해요
+        <br />
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <br />
+        천션알라뷰
+            <asp:Button ID="Button1" runat="server" Text="Button" 
+            onclick="Button1_Click" />
+            <br />
+            <asp:RadioButton ID="RadioButton1" runat="server" />
+        <br />
+        <br />
+        <asp:GridView ID="gvEmployee" runat="server">
+        </asp:GridView>
+    </div>
+    </form>
+</body>
+</html>
